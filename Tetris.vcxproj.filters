@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{ad4c4da1-ae5b-4ad0-812b-d65d43236653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Point">
+      <UniqueIdentifier>{8f146f34-3be5-4686-a523-635c6bb6ddee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{29097c43-7154-42a7-96a8-813fe292c7d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{00bf79de-2a9e-43a5-aa28-534e7fca7eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Board">
+      <UniqueIdentifier>{6ca0029c-0c64-46cc-aae5-d5333b913f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape">
+      <UniqueIdentifier>{aaaae433-c1e0-4d22-aa7c-d0bb45308ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions">
+      <UniqueIdentifier>{c3ec8123-7848-44c7-ae15-75fd433feda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape\JShape">
+      <UniqueIdentifier>{46bf5ab4-43a4-46cb-b6bb-2ff70a0a67fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape\TShape">
+      <UniqueIdentifier>{1eb3bf5d-8d53-4034-8180-116fc5f3bbb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape\LShape">
+      <UniqueIdentifier>{0d37a345-d8c9-43c3-8a40-1824722935e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape\Square">
+      <UniqueIdentifier>{9cdcbfac-cde2-4de4-a4a4-c5d2085a27aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape\Rectangle">
+      <UniqueIdentifier>{c93621aa-7ee1-430e-88fa-2a3b652eff68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape\ZShape">
+      <UniqueIdentifier>{9155e1ef-a9ce-490f-a5e1-bbca58f43fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape\SShape">
+      <UniqueIdentifier>{7b7ebef0-f8df-4b44-bccb-86c93288a718}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Color.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilsIo.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Point</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisGame.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="IGame.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayer.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanPlayer.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeFactory.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="GameOverException.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ReachedBoardTop.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="TShape.h">
+      <Filter>Shape\TShape</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Shape\Square</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Shape\Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="LShape.h">
+      <Filter>Shape\LShape</Filter>
+    </ClInclude>
+    <ClInclude Include="JShape.h">
+      <Filter>Shape\JShape</Filter>
+    </ClInclude>
+    <ClInclude Include="SShape.h">
+      <Filter>Shape\SShape</Filter>
+    </ClInclude>
+    <ClInclude Include="ZShape.h">
+      <Filter>Shape\ZShape</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UtilsIo.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Point</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TetrisGame.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="HumanPlayer.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeFactory.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverException.cpp">
+      <Filter>Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="IPlayer.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="TShape.cpp">
+      <Filter>Shape\TShape</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Shape\Square</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Shape\Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="LShape.cpp">
+      <Filter>Shape\LShape</Filter>
+    </ClCompile>
+    <ClCompile Include="JShape.cpp">
+      <Filter>Shape\JShape</Filter>
+    </ClCompile>
+    <ClCompile Include="SShape.cpp">
+      <Filter>Shape\SShape</Filter>
+    </ClCompile>
+    <ClCompile Include="ZShape.cpp">
+      <Filter>Shape\ZShape</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tetris.rc" />
+  </ItemGroup>
+</Project>
